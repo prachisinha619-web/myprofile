@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introduction Page</title>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing:border-box;
+    }
+    body{
+        margin:0px;
+         background: linear-gradient(135deg, #1e3c72, #2a5298);;
+        display:grid;
+        height:100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content:center;
+       
+    }
+
+    .card{
+        background:white;
+        padding:5px;
+        border-radius:10px;
+        width:350px;
+        text-align:center;
+        
+    }
+
+    img{
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        object-fit:cover;
+        margin-bottom:10px;
+    }
+
+    h3{
+        margin: 10px ;
+    }
+    p {
+        margin:10px;
+        padding:10px;
+        color:grey;
+        font-size:15px;
+    }
+
+    .btn{
+        margin-top:10px;
+    }
+
+    button{
+        padding:10px;
+        margin:10px;
+        border:none;
+        border-radius:8px;
+        background:#2a5298
+    }
+    button:hover
+    {
+    background: #1e3c72;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <img src="img.jpg">
+
+    <h1> Prachi Sinha</h1>
+
+    <p>
+        BCA Student | Web developer 
+    </p>
+        
+
+    <div class="btn">
+        <button onclick="showAboutme()">About me</button>
+        <button onclick="showSkills()">Skills</button>
+        <button onclick="showContact()">Contact</button>
+    </div>
+    </div>
+    <div>
+<script>
+    function showAboutme()
+    {
+        alert("About me:\nI am a BCA student passionate about web development,coding, and creating interactive projects using HTML, CSS and JavaScript.");
+
+    }
+    
+    function showSkills() 
+    {
+        alert("Skills:\nHTML\nCSS\nJavaScript\nWeb Designing");
+    }
+    
+    function showContact()
+    {
+        alert(" Contact Details:\nEmail: example@gmail.com\nMobile: 9XXXXXXXXX");
+    }
+</script>
+</div>
+
+</body>
+</html>
